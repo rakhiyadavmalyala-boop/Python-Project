@@ -1,5 +1,4 @@
 import random
-
 while True:
     user = input("Roll the dice? (y/n): ").strip().lower()
     if user == "y":
@@ -10,4 +9,4 @@ while True:
         print("Thank you for playing!")
         break
     else:
-        print("Invalid input. Please enter 'y' or 'n'.")
+        print("Invalid input. Please enter 'y' or 'n'.")
